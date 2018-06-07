@@ -1,0 +1,62 @@
+/*all hidden elements*/
+.header-desktop,
+.about-container .media-container,
+.desktop-img,
+.courses-bit img, h3,
+.courses-bit .info p,
+.thesis-container .info-container,
+.thesis-container .info,
+.mobile-span
+{
+  display: none;
+}
+/*end all hidden elements*/
+.header-phone{
+  display: flex;
+  height: 64px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.media-container{
+  width: 100%;
+  margin:auto;
+}
+.info-container{
+  width: auto;
+}
+.section{
+  padding: 0px 8px 16px 8px;
+}
+.banner-container{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.section-bit{
+  flex-direction: column;
+  padding: 32px 16px;
+}
+.section-bit .info{
+  width: 100%;
+}
+.media-thumb{
+  width: auto;
+}
+.mobile-img{
+  display: block;
+}
+.courses-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.courses-bit{
+  width: auto;
+  padding: 0px;
+  margin: 4px 0px;
+}
+
+.courses-bit .info{
+  padding: 16px 0px 24px 16px;
+}
